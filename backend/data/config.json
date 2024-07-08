@@ -4,32 +4,45 @@
 		"default_locale": "en-US",
 		"prompt_suggestions": [
 			{
-				"title": ["Help me study", "vocabulary for a college entrance exam"],
-				"content": "Help me study vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option."
+				"title": [
+					"Is transfusion needed for a stable 45-year-old with 800 ml blood loss",
+					"Hb 7 gm/dl, and 80,000/\u00b5l platelets pre-surgery?"
+				],
+				"content": "Is transfusion needed for a stable 45-year-old with 800 ml blood loss, Hb 7 gm/dl, and 80,000/\u00b5l platelets pre-surgery? How many units?"
 			},
 			{
-				"title": ["Give me ideas", "for what to do with my kids' art"],
-				"content": "What are 5 creative things I could do with my kids' art? I don't want to throw them away, but it's also so much clutter."
+				"title": [
+					"Need a packed red cell transfusion",
+					"Does a stable 45-year-old, 70 kg patient with 8 gm/dl Hb who lost 600 ml blood during tibia surgery"
+				],
+				"content": "Does a stable 45-year-old, 70 kg patient with 8 gm/dl Hb who lost 600 ml blood during tibia surgery need a packed red cell transfusion? If so, how many units?"
 			},
 			{
-				"title": ["Tell me a fun fact", "about the Roman Empire"],
-				"content": "Tell me a random fun fact about the Roman Empire"
+				"title": [
+					"Compatibility and Cross-Matching"
+				],
+				"content": "How does the cross-matching process ensure compatibility between donor and recipient blood types to prevent transfusion reactions?"
 			},
 			{
-				"title": ["Show me a code snippet", "of a website's sticky header"],
-				"content": "Show me a code snippet of a website's sticky header in CSS and JavaScript."
+				"title": [
+					"Indications for Blood Transfusion:",
+					"What are the primary clinical indications for performing a blood transfusion"
+				],
+				"content": "What are the primary clinical indications for performing a blood transfusion in patients with different medical conditions?"
 			},
 			{
-				"title": ["Explain options trading", "if I'm familiar with buying and selling stocks"],
-				"content": "Explain options trading in simple terms if I'm familiar with buying and selling stocks."
+				"title": [
+					"How does the storage duration and conditions of blood products ",
+					"impact their efficacy and safety for transfusion"
+				],
+				"content": "How does the storage duration and conditions of blood products impact their efficacy and safety for transfusion?"
 			},
 			{
-				"title": ["Overcome procrastination", "give me tips"],
-				"content": "Could you start by asking me about instances when I procrastinate the most and then give me some suggestions to overcome it?"
-			},
-			{
-				"title": ["Grammar check", "rewrite it for better readability "],
-				"content": "Check the following sentence for grammar and clarity: \"[sentence]\". Rewrite it for better readability while maintaining its original meaning."
+				"title": [
+					"What are the potential long-term complications",
+					"associated with repeated blood transfusions, and how can they be mitigated?"
+				],
+				"content": "What are the potential long-term complications associated with repeated blood transfusions, and how can they be mitigated?"
 			}
 		]
 	}
