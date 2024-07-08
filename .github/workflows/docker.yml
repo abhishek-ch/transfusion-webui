@@ -73,6 +73,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: ./
-          file: ./environments/Dockerfile
+          file: Dockerfile
           push: true
           tags: buntha/transfusion-webui:${{ steps.docker-tag.outputs.tag }}
