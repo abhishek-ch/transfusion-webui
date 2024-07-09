@@ -45,5 +45,15 @@
 				"content": "What are the potential long-term complications associated with repeated blood transfusions, and how can they be mitigated?"
 			}
 		]
+	},
+	"openai": {
+		"api_base_urls": [
+			"https://api.openai.com/v1",
+			"http://localhost:9099"
+		],
+		"api_keys": [
+			"sk-*********",
+			"0p3n-w3bu!"
+		]
 	}
 }
