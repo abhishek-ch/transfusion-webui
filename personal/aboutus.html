@@ -4,99 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - dhanvantriai.com</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        h1, h2 {
-            color: #0056b3;
-        }
-        h1 {
-            border-bottom: 3px solid #0056b3;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        .person {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        .person img {
-            border-radius: 50%;
-            margin-right: 20px;
-        }
-        .person h2 {
-            margin-top: 0;
-        }
-        .person p {
-            margin: 5px 0;
-        }
-        .contact {
-            color: #0056b3;
-        }
-        .social {
-            margin-top: 10px;
-        }
-        .social a {
-            color: #333;
-            text-decoration: none;
-            margin-right: 10px;
-            display: inline-flex;
-            align-items: center;
-        }
-        .social a:hover {
-            text-decoration: underline;
-        }
-        .social a.linkedin {
-            color: #0077b5;
-        }
-        .social a.x {
-            color: #1da1f2;
-        }
-        .social img {
-            margin-right: 5px;
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="container">
-        <h1>About Us</h1>
+<body class="bg-gray-100 text-gray-800">
+    <div class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-lg mt-10">
+        <div class="flex items-center justify-between mb-6">
+            <img src="/images/logo.png" alt="Website Logo" class="w-16 h-16 object-contain">
+        </div>
+        <div class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-black mb-4">About Us</h1>
+            <p class="text-lg text-gray-600 mb-6">Welcome to dhanvantriai.com. Learn more about our team and our expertise below.</p>
+            <div class="flex justify-center space-x-4 mb-10">
+                <a href="/login" class="text-black hover:text-white hover:bg-black border border-black px-4 py-2 rounded transition">Login</a>
+                <a href="/wiki" class="text-black hover:text-white hover:bg-black border border-black px-4 py-2 rounded transition">Wiki</a>
+            </div>
+        </div>
 
-        <div class="person">
-            <img src="https://via.placeholder.com/80" alt="Abhishek Choudhary">
-            <div>
-                <h2>AI Engineering</h2>
-                <p><strong>Abhishek Choudhary</strong></p>
-                <p class="contact"><a href="mailto:abc@abhishekchoudhary.net">abc@abhishekchoudhary.net</a></p>
-                <div class="social">
-                    <p><a href="https://www.linkedin.com/in/iamabhishekchoudhary/" target="_blank" class="linkedin"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="20" height="20"> LinkedIn</a></p>
-                    <p><a href="https://x.com/Ubunta" target="_blank" class="x"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/600px-X_logo.jpg" alt="X" width="20" height="20"> Ubunta</a></p>
+        <div class="mb-10">
+            <div class="flex items-center mb-6">
+                <img src="https://pbs.twimg.com/profile_images/1811436900302962690/nYGu6uhx_400x400.jpg" alt="Abhishek Choudhary" class="rounded-full w-24 h-24 object-cover mr-6">
+                <div>
+                    <h2 class="text-2xl font-semibold text-black mb-1">AI Engineering</h2>
+                    <p class="text-xl font-bold">Abhishek Choudhary</p>
+                    <p class="text-gray-600"><a href="mailto:abc@abhishekchoudhary.net" class="text-black hover:text-white hover:bg-black border border-black px-2 py-1 rounded transition">abc@abhishekchoudhary.net</a></p>
+                    <div class="mt-2">
+                        <a href="https://www.linkedin.com/in/iamabhishekchoudhary/" target="_blank" class="text-black hover:text-white hover:bg-black border border-black px-2 py-1 rounded transition flex items-center mb-1"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="w-5 h-5 mr-2"> LinkedIn</a>
+                        <a href="https://x.com/Ubunta" target="_blank" class="text-black hover:text-white hover:bg-black border border-black px-2 py-1 rounded transition flex items-center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/600px-X_logo.jpg" alt="X" class="w-5 h-5 mr-2"> Ubunta</a>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="person">
-            <img src="https://via.placeholder.com/80" alt="Dr. Rounak Dubey">
-            <div>
-                <h2>Medical Expert</h2>
-                <p><strong>Dr. Rounak Dubey</strong></p>
-                <p class="contact"><a href="mailto:rounakdubey@gmail.com">rounakdubey@gmail.com</a></p>
-                <div class="social">
-                    <p><a href="https://www.linkedin.com/in/rounak-dubey/" target="_blank" class="linkedin"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="20" height="20"> LinkedIn</a></p>
-                    <p><a href="https://x.com/heyRounak" target="_blank" class="x"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/600px-X_logo.jpg" alt="X" width="20" height="20"> heyRounak</a></p>
+        <div class="mb-10">
+            <div class="flex items-center mb-6">
+                <img src="https://pbs.twimg.com/profile_images/1755139047066841088/CMwovcnq_400x400.jpg" alt="Dr. Rounak Dubey" class="rounded-full w-24 h-24 object-cover mr-6">
+                <div>
+                    <h2 class="text-2xl font-semibold text-black mb-1">Medical Expert</h2>
+                    <p class="text-xl font-bold">Dr. Rounak Dubey</p>
+                    <p class="text-gray-600"><a href="mailto:rounakdubey@gmail.com" class="text-black hover:text-white hover:bg-black border border-black px-2 py-1 rounded transition">rounakdubey@gmail.com</a></p>
+                    <div class="mt-2">
+                        <a href="https://www.linkedin.com/in/rounak-dubey/" target="_blank" class="text-black hover:text-white hover:bg-black border border-black px-2 py-1 rounded transition flex items-center mb-1"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="w-5 h-5 mr-2"> LinkedIn</a>
+                        <a href="https://x.com/heyRounak" target="_blank" class="text-black hover:text-white hover:bg-black border border-black px-2 py-1 rounded transition flex items-center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/600px-X_logo.jpg" alt="X" class="w-5 h-5 mr-2"> heyRounak</a>
+                    </div>
                 </div>
             </div>
         </div>

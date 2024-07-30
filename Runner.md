@@ -108,6 +108,7 @@ server {
 1. Copy the file from `personal/aboutus.html` to /var/www/html/aboutus.html
 2. Update the Nginx configuration to serve the static page
 
+
 ```shell
 server {
     listen 80;
@@ -122,6 +123,28 @@ server {
         default_type text/html;
     }
 
+    location = /aboutus/ {
+        try_files /aboutus.html =404;
+        types { text/html html; }
+        default_type text/html;
+    }
+
+    location = /wiki {
+        try_files /wiki.html =404;
+        types { text/html html; }
+        default_type text/html;
+    }
+
+    location = /wiki/ {
+        try_files /wiki.html =404;
+        types { text/html html; }
+        default_type text/html;
+    }
+
+    # Serve static files from /var/www/html
+    location /images/ {
+        alias /var/www/html/images/;
+    }
 
     location / {
         proxy_pass http://localhost:3000;
@@ -135,3 +158,7 @@ server {
     }
 }
 ```
+
+## Restart Nginx
+
+```reload_nginx.sh```
